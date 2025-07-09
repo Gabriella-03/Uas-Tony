@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar Kursus</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body onload="tampilkanJam()">
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Francé Academy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="daftar.html">📝 Daftar Kursus</a></li>
+          <li><a href="pilih.html">📅 Pilih Jadwal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Konten Form -->
+  <main>
+    <section class="form-section">
+      <div class="container">
+        <h2>Formulir Pendaftaran Kursus</h2>
+        <form id="formDaftar" class="form-box">
+          <label for="nik">NIK</label>
+          <input type="text" id="nik" required />
+
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" required />
+
+          <label for="alamat">Alamat</label>
+          <textarea id="alamat" required></textarea>
+
+          <label for="jk">Jenis Kelamin</label>
+          <select id="jk" required>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+          </select>
+
+          <button type="submit">Daftar</button>
+        </form>
+
+        <div id="hasilDaftar" class="output-box"></div>
+        <div id="jam" class="jam-box"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Francé Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

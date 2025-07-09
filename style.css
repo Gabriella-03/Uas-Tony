@@ -1,0 +1,150 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #023047;
+  color: white;
+  padding: 15px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #ffb703;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #8ecae6, #219ebc);
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.hero .highlight {
+  color: #ffb703;
+}
+.jam-box {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #ffb703;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Profil Section */
+.profil-section {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+.profil {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #219ebc;
+  object-fit: cover;
+}
+.profil-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Video Section */
+.video-section {
+  background-color: #e0f7fa;
+  padding: 40px 0;
+  text-align: center;
+}
+.video-section iframe {
+  width: 90%;
+  max-width: 600px;
+  height: 315px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tentang-kursus {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+.tentang-kursus h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #023047;
+  margin-bottom: 20px;
+}
+.tentang-kursus p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+.tentang-kursus ul {
+  list-style: none;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0;
+}
+.tentang-kursus ul li {
+  background-color: #e0f7fa;
+  margin: 10px 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 17px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+/* Footer */
+footer {
+  background-color: #023047;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}

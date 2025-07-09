@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kursus Bahasa Prancis</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body onload="tampilkanJam()">
+
+  <!-- Musik -->
+  <audio autoplay loop>
+    <source src="assets/musik.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- === NAVBAR === -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Francé Academy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">🏠 Home</a></li>
+          <li><a href="daftar.html">📝 Daftar Kursus</a></li>
+          <li><a href="pilih.html">📅 Pilih Jadwal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- === KONTEN UTAMA === -->
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Bienvenue! Selamat Datang di <span class="highlight">Kursus Bahasa Prancis</span></h2>
+          <p>Kami menyediakan layanan belajar bahasa Prancis dari dasar hingga mahir dengan metode yang menyenangkan dan interaktif.</p>
+          <div id="jam" class="jam-box"></div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Profil -->
+    <section class="profil-section">
+      <div class="container profil">
+        <img src="profile.jpg" alt="Profil Pengajar" />
+        <div class="profil-info">
+          <h3>Al Fathony Munawar</h3>
+          <p><strong>Kontak:</strong> 082338916657</p>
+          <p>Pengajar bersertifikat dengan pengalaman mengajar lebih dari 5 tahun di bidang bahasa asing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="video-section">
+      <div class="container">
+        <h3>Perkenalan Singkat</h3>
+        <iframe src="vidio.mp4" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+<!-- Tentang Kursus -->
+<section class="tentang-kursus">
+  <div class="container">
+    <h2>Tentang Kursus</h2>
+    <p>
+      Francé Academy adalah platform pembelajaran Bahasa Prancis yang dirancang untuk pemula maupun tingkat lanjutan.
+      Dengan metode belajar interaktif, materi yang terstruktur, serta dukungan pengajar profesional, kursus ini membantu Anda memahami dan menggunakan Bahasa Prancis dalam kehidupan sehari-hari.
+    </p>
+    <p>
+      Kami menawarkan berbagai fitur menarik seperti:
+    </p>
+    <ul>
+      <li>✅ Materi mulai dari dasar hingga percakapan lanjutan</li>
+      <li>✅ Pengajar berpengalaman dan bersertifikat</li>
+      <li>✅ Jadwal fleksibel, bisa dipilih sesuai waktu luang Anda</li>
+      <li>✅ Akses video pembelajaran & latihan interaktif</li>
+      <li>✅ Sertifikat kelulusan setelah menyelesaikan kursus</li>
+    </ul>
+    <p>
+      Bergabunglah sekarang dan mulailah petualangan belajar Bahasa Prancis Anda bersama kami!
+    </p>
+  </div>
+</section>
+
+  <!-- === FOOTER === -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Francé Academy. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
